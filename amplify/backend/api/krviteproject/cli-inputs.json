@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "krviteproject",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authkrviteproject9cf11abf"
+    }
+  }
+}

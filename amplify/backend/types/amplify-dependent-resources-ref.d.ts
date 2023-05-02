@@ -1,4 +1,10 @@
 export type AmplifyDependentResourcesAttributes = {
+  "api": {
+    "krviteproject": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string"
+    }
+  },
   "auth": {
     "krviteproject9cf11abf": {
       "AppClientID": "string",
