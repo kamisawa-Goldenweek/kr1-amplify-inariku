@@ -10,6 +10,11 @@
       "StackName": "amplify-krviteproject-dev-143550",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:047403811176:stack/amplify-krviteproject-dev-143550/33a75790-e8ab-11ed-9948-0a3fccd85a4f",
       "AmplifyAppId": "d31584wh9ql4sf"
+    },
+    "categories": {
+      "auth": {
+        "krviteproject9cf11abf": {}
+      }
     }
   }
 }
