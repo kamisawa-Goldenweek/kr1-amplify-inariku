@@ -17,6 +17,9 @@
       },
       "api": {
         "krviteproject": {}
+      },
+      "predictions": {
+        "translateText540e9c31": {}
       }
     }
   }
