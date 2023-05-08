@@ -25,24 +25,16 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "predictions": {
-    "identifyLabels2b13c3bd": {
+    "interpretText2233af86": {
       "region": "string",
       "type": "string"
     },
-    "identifyText04d63228": {
-      "format": "string",
-      "region": "string"
-    },
-    "interpretTextbbe0b4a1": {
-      "region": "string",
-      "type": "string"
-    },
-    "speechGenerator8334dfca": {
+    "speechGeneratorbe898a35": {
       "language": "string",
       "region": "string",
       "voice": "string"
     },
-    "translateText540e9c31": {
+    "translateText205437ab": {
       "region": "string",
       "sourceLang": "string",
       "targetLang": "string"

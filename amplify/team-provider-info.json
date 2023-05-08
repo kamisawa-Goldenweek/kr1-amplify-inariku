@@ -19,7 +19,12 @@
         "krviteproject": {}
       },
       "predictions": {
-        "translateText540e9c31": {}
+        "translateText205437ab": {},
+        "interpretText2233af86": {},
+        "speechGeneratorbe898a35": {}
+      },
+      "geo": {
+        "mapcc911adf": {}
       }
     }
   }

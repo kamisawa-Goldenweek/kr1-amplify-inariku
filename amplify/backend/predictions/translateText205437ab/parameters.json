@@ -1,6 +1,6 @@
 {
-    "resourceName": "translateText540e9c31",
-    "convertPolicyName": "translateTextPolicy540e9c31",
+    "resourceName": "translateText205437ab",
+    "convertPolicyName": "translateTextPolicy205437ab",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
@@ -8,7 +8,7 @@
         "Ref": "UnauthRoleName"
     },
     "convertType": "translateText",
-    "sourceLang": "en",
+    "sourceLang": "zh",
     "targetLang": "ja",
     "access": "auth"
 }
