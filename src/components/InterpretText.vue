@@ -30,12 +30,11 @@ export default {
             text: inputText.value,
           },
         },
-    })
+      })
         .then((result) => {
           response.value = JSON.stringify(result, null, '\t');
-       })
-      .catch((error) => console.warn(error))
-
+        })
+        .catch((error) => console.warn(error));
       // ↑↑↑↑↑↑
     };
 

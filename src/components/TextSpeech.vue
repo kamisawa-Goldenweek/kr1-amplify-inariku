@@ -14,7 +14,7 @@ export default {
     const inputText = ref('');
 
     const speech = () => {
-     // Text Speech の実装
+// Text Speech の実装
 Predictions.convert({
   textToSpeech: {
     source: {

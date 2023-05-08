@@ -16,6 +16,14 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     }
   },
+  "geo": {
+    "mapcc911adf": {
+      "Arn": "string",
+      "Name": "string",
+      "Region": "string",
+      "Style": "string"
+    }
+  },
   "predictions": {
     "identifyLabels2b13c3bd": {
       "region": "string",
@@ -29,7 +37,7 @@ export type AmplifyDependentResourcesAttributes = {
       "region": "string",
       "type": "string"
     },
-    "speechGenerator22392a90": {
+    "speechGenerator8334dfca": {
       "language": "string",
       "region": "string",
       "voice": "string"

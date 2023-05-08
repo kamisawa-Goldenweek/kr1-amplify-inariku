@@ -1,6 +1,6 @@
 {
-    "resourceName": "speechGenerator22392a90",
-    "convertPolicyName": "speechGeneratorPolicy22392a90",
+    "resourceName": "speechGenerator8334dfca",
+    "convertPolicyName": "speechGeneratorPolicy8334dfca",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },

@@ -51,6 +51,24 @@
       "service": "Cognito"
     }
   },
+  "geo": {
+    "mapcc911adf": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "krviteproject9cf11abf"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorHereExplore",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    }
+  },
   "predictions": {
     "identifyLabels2b13c3bd": {
       "dependsOn": [],
@@ -69,7 +87,7 @@
       "providerPlugin": "awscloudformation",
       "service": "Comprehend"
     },
-    "speechGenerator22392a90": {
+    "speechGenerator8334dfca": {
       "convertType": "speechGenerator",
       "providerPlugin": "awscloudformation",
       "service": "Polly"
