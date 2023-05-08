@@ -52,7 +52,7 @@
     }
   },
   "geo": {
-    "mapcc911adf": {
+    "map5198abe6": {
       "accessType": "AuthorizedUsers",
       "dependsOn": [
         {
@@ -64,6 +64,22 @@
         }
       ],
       "isDefault": true,
+      "mapStyle": "VectorHereExplore",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    },
+    "mapcc911adf": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "krviteproject9cf11abf"
+        }
+      ],
+      "isDefault": false,
       "mapStyle": "VectorHereExplore",
       "providerPlugin": "awscloudformation",
       "service": "Map"
