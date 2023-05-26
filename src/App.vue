@@ -1,7 +1,6 @@
 <template>
+  <!-- 追加 1 -->
   <authenticator>
-    <!-- 追加 1 -->
-    <template v-slot="{ user, signOut }">
       <main>
         <header>
           <h2>Amplify × Vue × Vite</h2>
@@ -13,16 +12,12 @@
               <li><router-link class="routerLink" to="/geo">Geo</router-link></li>
             </ul>
           </nav>
-          <!-- 追加 2 -->
-          <button @click="signOut" class="contact">Sign out</button>
         </header>
         <section>
-          <!-- 追加 3 -->
-          <router-view :username="user.username" />
+          <router-view/>
         </section>
       </main>
-    <!-- 追加 4 -->
-    </template>
+  <!-- 追加 2 -->
   </authenticator>
 </template>
 

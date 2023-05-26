@@ -19,9 +19,9 @@
         "krviteproject": {}
       },
       "predictions": {
-        "translateText205437ab": {},
         "interpretText2233af86": {},
-        "speechGeneratorbe898a35": {}
+        "translateTexte8874bfb": {},
+        "speechGenerator30bbb4f8": {}
       },
       "geo": {
         "mapcc911adf": {},

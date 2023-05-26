@@ -91,12 +91,12 @@
       "providerPlugin": "awscloudformation",
       "service": "Comprehend"
     },
-    "speechGeneratorbe898a35": {
+    "speechGenerator30bbb4f8": {
       "convertType": "speechGenerator",
       "providerPlugin": "awscloudformation",
       "service": "Polly"
     },
-    "translateText205437ab": {
+    "translateTexte8874bfb": {
       "convertType": "translateText",
       "providerPlugin": "awscloudformation",
       "service": "Translate"

@@ -5,6 +5,11 @@
   <div class="right">
     <textarea class="ioarea" v-model="translatedText" disabled> </textarea>
   </div>
+  <form>
+    <input v-model="translatedText" />
+    <button type="button" @click="speech">Speech</button>
+  </form>
+
 </template>
 
 <script>
@@ -36,9 +41,33 @@ export default {
         .catch((error) => {
           console.warn({ error });
         });
-
       // ↑↑↑↑↑↑
-    };
+    }
+
+    const speech = () => {
+      // Text Speech の実装
+      Predictions.convert({
+        textToSpeech: {
+          source: {
+            text: translatedText.value,
+          },
+        },
+      })
+        .then((result) => {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          const audioCtx = new AudioContext();
+          const source = audioCtx.createBufferSource();
+
+          audioCtx.decodeAudioData(result.audioStream, (buffer) => {
+           source.buffer = buffer;
+           source.connect(audioCtx.destination);
+           source.start(0);
+         });
+       })
+       .catch((error) => console.warn(error));
+       // ↑↑↑↑↑↑
+      };
+    
 
     watch(inputText, (inputText) => {
       translate(inputText);
@@ -48,6 +77,7 @@ export default {
       inputText,
       translatedText,
       translate,
+      speech,
     };
   },
 };
